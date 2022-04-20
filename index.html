@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+    <!----===== Boxicons CSS ===== -->
+    <link rel="stylesheet" href="./css/login.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    
+    <title>Front-End</title> 
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="./img/logo.png" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">MelloShop</span>
+                    <span class="profession">Cursos Web</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">                   
+                    <li class="nav-link">
+                        <a href="./cursos.html">
+                            <i class='bx bxs-store icon' ></i>
+                            <span class="text nav-text">Meus Cursos</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="./sobre.html">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Sobre</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="carrinho.html">
+                            <i class='bx bx-cart icon' ></i>
+                            <span class="text nav-text">Carrinho</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="login.html">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Login/Logout</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="edicaoPerfil.html">
+                        <i class='bx bxs-t-shirt icon'></i>
+                        <span class="text nav-text">Editar Perfil</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home">
+        <div class="text">Homepage</div>
+
+        
+
+        <div class="login-box">
+            <h2>Entre, Cadastre-se ou Saiba Mais.</h2>
+            <form>
+                <div class="user-box">
+                    <input type="email" name="email" required="*">
+                    <label>Insira seu melhor email</label>
+                </div>
+                <div class="user-box">
+                    <input type="text" name="user" required="*">
+                    <label>Nome</label>
+                </div>
+                <div class="user-box">
+                    <input type="number" name="numero" required="*">
+                    <label>Telefone</label>
+                </div>
+                <a href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    VALIDAR/ENTRAR
+                </a>
+            </form>
+        </div>
+
+        
+    </section>
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>

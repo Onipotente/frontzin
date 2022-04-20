@@ -1,0 +1,38 @@
+*{
+    font-family: monospace;
+    font-size: x-large;
+}
+
+body{
+    background: linear-gradient(#000000, #434343);
+    align-items: center;
+}
+
+h1{
+    width: 100% !important;
+    display: flex !important;
+    color: rgb(255, 255, 255);
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    align-items: center;
+    color: #fff
+}
+
+p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
